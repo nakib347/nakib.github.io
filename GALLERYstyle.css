@@ -1,0 +1,91 @@
+body {
+    background-image: url(file:///C:/Users/Asus/Downloads/7e86878e-b491-4252-a4b7-573fc569c2f7.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card{
+   width: 300px;
+   height: 250px;
+   display: inline-block;
+   border-radius: 10px;
+   padding: 1px 20px;
+   box-sizing: border-box;
+   cursor: pointer;
+   margin: 20px 40px;
+   background-position: center;
+   background-size: cover;
+   transform: scale(1.1); 
+   transition: transform 0.5s;
+   margin-top: 50px;
+   margin-bottom: 8px;
+}
+.card1{
+   background-image: url(file:///C:/Users/Asus/Downloads/25752e74-7656-48ba-b95a-9827346fb4d7.jpg);
+}
+.card2{
+   background-image: url(file:///C:/Users/Asus/Downloads/560a9b68-336f-46d0-a50f-ee024de77675.jpg);
+}
+.card3{
+   background-image: url(file:///C:/Users/Asus/Downloads/1ef91da0-8b18-4af4-af2e-7b18933dbe48.jpg);
+}
+.card4{
+   background-image: url(file:///C:/Users/Asus/Downloads/ffc0dcfc-2b6c-416a-85cc-ece1618e849f.jpg);
+}
+.card5{
+   background-image: url(file:///C:/Users/Asus/Downloads/7d2ce07d-6dfd-45e0-8fb2-c4bc4c0c76bd.jpg);
+}
+.card6{
+   background-image: url(file:///C:/Users/Asus/Downloads/ef4c5384-3a26-4b1f-b849-029cfa53d02f.jpg);
+}
+.card7{
+   background-image: url(file:///C:/Users/Asus/Downloads/a1ab2261-445b-45f6-8290-5b6c072a8457.jpg);
+}
+.card8{
+   background-image: url(file:///C:/Users/Asus/Downloads/a6c21e62-2d1d-43e1-ad15-60347f4a5fd9.jpg);
+}
+.card9{
+   background-image: url(file:///C:/Users/Asus/Downloads/b3c726e4-99af-4821-acfa-1cd503b9cc0a.jpg);
+}
+.card10{
+   background-image: url(file:///C:/Users/Asus/Downloads/d5a6dfd6-3c87-4e1c-80ad-169ad7b79c32.jpg);
+}
+.card11{
+   background-image: url(file:///C:/Users/Asus/Downloads/ccf5e1a1-e293-435e-99e3-5ebb0fc7a73e.jpg);
+}
+.card12{
+   background-image: url(file:///C:/Users/Asus/Downloads/183de3aa-9b39-4770-a442-eaf19893e364.jpg);
+}
+.card13{
+   background-image: url(file:///C:/Users/Asus/Downloads/c3cab788-25cb-4cd7-932b-9d18a0dd5878.jpg);
+}
+.card14{
+   background-image: url(file:///C:/Users/Asus/Downloads/9a791ab3-a451-46be-803b-97ed51ff4aa7.jpg);
+}
+.card15{
+   background-image: url(file:///C:/Users/Asus/Downloads/e13ac208-27d3-4b59-b43b-a1ed3b94583c.jpg);
+}
+.card16{
+   background-image: url(file:///C:/Users/Asus/Downloads/5212c2f9-b8ab-4542-9262-3d43cf24ddfb.jpg);
+}
+.card:hover{
+   transform: translateY(-20px);
+}
+.card h5 {
+   color: black; /* Tukar warna teks 'Relationship' kepada hitam */
+   font-size: 1rem; /* Saiz teks untuk 'Relationship' */
+   font-weight: bold; /* Teks lebih tebal */
+   margin-bottom: 5px; /* Jarak bawah teks 'Relationship' */
+   background-color: white; /* Latar belakang putih untuk teks */
+   display: inline-block; /* Pastikan latar belakang hanya meliputi teks */
+   padding: 5px 10px; /* Tambah ruang di sekeliling teks */
+   border-radius: 5px; /* Beri bucu bulat pada latar belakang */
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); /* Tambahkan sedikit bayangan */
+}

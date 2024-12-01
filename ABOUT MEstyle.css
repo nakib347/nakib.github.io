@@ -1,0 +1,117 @@
+body {
+    background-image: url(file:///C:/Users/Asus/Downloads/7e86878e-b491-4252-a4b7-573fc569c2f7.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.row{
+   display: flex;
+   height: 65%;
+   align-items: center;
+   color: white;
+   margin-left: 145px;
+   margin-bottom:10px;
+   line-height: 1.6; 
+}
+.col{
+   flex-basis: 50%;
+   color: white;
+}
+h1 {
+   font-size: 4rem;
+   margin-bottom: 10px;
+   border: 1.5px dashed gray; /* Border dashed (putus-putus) untuk teks */
+   padding: 10px; /* Ruang dalam teks */
+   border-radius: 20px; /* Bucu bulat untuk border teks */
+}
+li a:hover{
+   background: white;
+   transition: 0.10s;
+}
+.navbar a:hover{
+   color: black;
+}
+.card{
+   width: 200px;
+   height: 250px;
+   display: inline-block;
+   border-radius: 10px;
+   padding: 1px 20px;
+   box-sizing: border-box;
+   cursor: pointer;
+   margin: 20px 40px;
+   background-position: center;
+   background-size: cover;
+   transition: transform 0.5s;
+   margin-top: 50px;
+   margin-bottom: 8px;
+}
+.card1{
+   background-image: url(file:///C:/Users/Asus/Downloads/c3cab788-25cb-4cd7-932b-9d18a0dd5878.jpg);
+}
+.card2{
+   background-image: url(file:///C:/Users/Asus/Downloads/ed34fdfb-ace7-4570-853b-b5abffcdfaa9.jpg);
+}
+.card3{
+   background-image: url(file:///C:/Users/Asus/Downloads/ccf5e1a1-e293-435e-99e3-5ebb0fc7a73e.jpg);
+}
+.card4{
+   background-image: url(file:///C:/Users/Asus/Downloads/6924fa1f-b9ef-44f1-8ad2-744743ca73af.jpg);
+}
+.card:hover{
+   transform: translateY(-20px);
+}
+.card h5 {
+   color: black; /* Tukar warna teks 'Relationship' kepada hitam */
+   font-size: 1rem; /* Saiz teks untuk 'Relationship' */
+   font-weight: bold; /* Teks lebih tebal */
+   margin-bottom: 5px; /* Jarak bawah teks 'Relationship' */
+   background-color: white; /* Latar belakang putih untuk teks */
+   display: inline-block; /* Pastikan latar belakang hanya meliputi teks */
+   padding: 5px 10px; /* Tambah ruang di sekeliling teks */
+   border-radius: 5px; /* Beri bucu bulat pada latar belakang */
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); /* Tambahkan sedikit bayangan */
+}
+.news-container {
+   background: rgba(0, 0, 0, 0.6); /* Latar belakang hitam dengan 80% opasiti */
+   color: white;     /* Warna teks putih */
+   padding: 10px 0;
+   overflow: hidden; /* Sembunyikan bahagian luar sempadan */
+   position: relative;
+   border: 3px solid rgba(255, 255, 255, 0.6); /* Border putih dengan 60% opasiti */
+   border-radius: 10px; /* Bucu bulat untuk border */
+   box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* Bayangan border lebih lembut */
+}
+.marquee {
+   white-space: nowrap; /* Pastikan teks tidak pecah ke baris lain */
+   overflow: hidden;    /* Sembunyikan elemen yang keluar */
+   position: relative;
+}
+.marquee span {
+   display: inline-block;
+   animation: marquee 20s linear infinite; /* Durasi animasi: 10 saat */
+   font-size: 3rem; /* Saiz teks */
+   font-weight: bold;
+   text-transform: uppercase;
+   color: white; /* Warna teks kuning */
+   border: 2px dashed white; /* Border dashed (putus-putus) untuk teks */
+   padding: 10px; /* Ruang dalam teks */
+   border-radius: 20px; /* Bucu bulat untuk border teks */
+}
+/* Keyframe animasi */
+@keyframes marquee {
+    from {
+        transform: translateX(100%); /* Mula di luar kanan */
+    }
+    to {
+        transform: translateX(-100%); /* Tamat di luar kiri */
+    }
+}
+
+
+
+
+
+
+   

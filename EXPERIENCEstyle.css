@@ -1,0 +1,108 @@
+body {
+    background-image: url(file:///C:/Users/Asus/Downloads/7e86878e-b491-4252-a4b7-573fc569c2f7.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Transparent dark background */
+    border-radius: 15px;
+}
+
+main.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.col header.title h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 2.5rem; /* Larger font size */
+    color: #ffffff;
+    text-align: center;
+    border: 3px solid #ffffff; /* Add border around text */
+    padding: 10px;
+    display: inline-block;
+    margin: 0 auto 20px;
+    border-radius: 5px; /* Rounded border */
+}
+
+.col .contents {
+    padding: 0 20px;
+    border-left: 2px solid #bababa;
+}
+
+.col .contents .box {
+    position: relative;
+    padding: 15px 20px;
+    border: 1px solid #eaeaea;
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent box background */
+    margin-bottom: 15px;
+    transition: all 0.4s;
+    border-radius: 5px; /* Rounded corners */
+}
+
+.col .contents .box:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.col .contents .box h4 {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.col .contents .box h3 {
+    font-size: 2rem;
+   font-weight: bold;
+    color: #ffffff;
+   margin-bottom: 10px;
+   text-align: left;
+   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.col .contents .box p {
+    font-size: 1rem;
+    color: #ddd;
+}
+
+/* Tambahan Bullet Hijau di Sisi Kotak */
+.col .contents .box::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    left: -30px; /* Posisi di sebelah kiri */
+    top: 20px; /* Selari dengan teks */
+    background-color: #11a372; /* Warna hijau */
+    border: 2px solid white; /* Border putih */
+}
+
+/* Responsif untuk Skrin Kecil */
+@media (max-width: 768px) {
+    main.row {
+        grid-template-columns: 1fr; /* Hanya satu kolum */
+    }
+
+    .col .contents {
+        border-left: none; /* Hilangkan garisan kiri */
+    }
+
+    .col .contents .box::before {
+        left: -20px; /* Kurangkan jarak kiri */
+    }
+}
+
+
